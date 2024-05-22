@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-// import faker from "faker";
-import faker from "faker";
+// import { faker } from "@faker-js/faker";
 
 export const useFakerData = (query: string) => {
   const [data, setData] = useState<any[]>([]);

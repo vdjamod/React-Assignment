@@ -1,4 +1,4 @@
-@import "./assets/styles/variables";
+// @import "./assets/styles/variables";
 
 .app {
   padding: 20px;
@@ -46,13 +46,15 @@
   }
 
   .wishlist-button {
-    cursor: pointer;
+    // cursor: pointer;
+    bottom: 2px;
   }
 
   .view-product {
     position: absolute;
-    top: 0;
-    right: 0;
+    // top: 0;
+    right: 10px;
+    bottom: 10px;
     display: none;
 
     button {
@@ -62,6 +64,7 @@
   }
 
   &:hover .view-product {
-    display: block;
+    display: inline-block;
+    
   }
 }
